@@ -12,9 +12,10 @@ export const Footer: React.FC = () => {
                 <Logo className="h-8 w-8" />
                 <span className="text-lg font-bold">AutomateX AI</span>
              </div>
-             <p className="text-sm mb-6">
+             <p className="text-sm mb-4">
                 Intelligent Automation for Real Estate, Travel, Healthcare, F&B, Law & Small Businesses.
              </p>
+             <a href="https://automatex.ai" className="text-brand-teal hover:text-white transition-colors text-sm font-medium block mb-6">AutomateX.AI</a>
              <div className="flex space-x-4">
                 <a href="#" className="hover:text-brand-teal transition-colors"><Twitter size={20} /></a>
                 <a href="#" className="hover:text-brand-teal transition-colors"><Linkedin size={20} /></a>
@@ -55,7 +56,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
            <div>&copy; {new Date().getFullYear()} AutomateX AI. All rights reserved.</div>
            <div className="mt-4 md:mt-0 flex flex-col md:flex-row items-center gap-6">
-              <a href="https://www.automatex.ai" className="hover:text-brand-teal transition-colors">www.automatex.ai</a>
+              <a href="https://automatex.ai" className="hover:text-brand-teal transition-colors">AutomateX.AI</a>
               <a href="mailto:hello@automatex.ai" className="hover:text-brand-teal transition-colors">hello@automatex.ai</a>
            </div>
         </div>
